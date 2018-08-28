@@ -1,0 +1,223 @@
+img, embed,
+object, video {
+  max-width: 100%;
+}
+
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+
+#maincontent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 372px) {
+  .inside #footer {
+    width: 80%;
+    padding: 25px 10%;
+  }
+}
+
+@media screen and (min-width: 373px) and (max-width: 382px) {
+  .inside #footer {
+    width: 78%;
+    padding: 25px 11%;
+  }
+}
+
+@media screen and (min-width: 383px) and (max-width: 414px) {
+  .inside #footer {
+    width: 72%;
+    padding: 25px 14%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 445px) {
+  .inside #footer {
+    width: 60%;
+    padding: 25px 20%;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width: 445px) {
+  .inside #footer {
+    width: 66%;
+    padding: 25px 17%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  nav h1 a {
+    letter-spacing: 5px;
+  }
+  .review-name {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #restaurant-container, #reviews-container {
+    width: 90%;
+    margin:auto;
+  }
+
+  #restaurant-img, #restaurant-cuisine {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  #restaurant-hours td {
+    display: table;
+    font-size: 12pt;
+    line-height: 1.1;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 357px) and (max-width: 382px) {
+  #restaurant-hours td {
+    display: table;
+    font-size: 13pt;
+    line-height: 1.1;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 383px) and (max-width: 408px) {
+  #restaurant-hours td {
+    display: table;
+    font-size: 14pt;
+    line-height: 1.1;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 409px) and (max-width: 492px) {
+  #restaurant-hours td {
+    display: table;
+    font-size: 15pt;
+    line-height: 1.2;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 493px) and (max-width: 526px) {
+  #restaurant-hours td {
+    font-size: 14pt;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 527px) and (max-width: 561px) {
+  #restaurant-hours td {
+    font-size: 15pt;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (min-width: 562px) and (max-width: 750px) {
+  #restaurant-hours td {
+    font-size: 16pt;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 751px) and (max-width: 764px) {
+  #restaurant-hours td {
+  	display: table;
+    font-size: 13pt;
+    line-height: 1.1;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 765px) and (max-width: 817px) {
+  #restaurant-hours td {
+  	display: table;
+    font-size: 14pt;
+    line-height: 1.1;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 818px) and (max-width: 871px) {
+  #restaurant-hours td {
+  	display: table;
+    font-size: 15pt;
+    line-height: 1.2;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 872px) and (max-width: 984px) {
+  #restaurant-hours td {
+  	display: table;
+    font-size: 16pt;
+    line-height: 1.2;
+  }
+  .restaurant-day {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 985px) and (max-width: 1053px) {
+  #restaurant-hours td {
+    font-size: 14pt;
+  }
+}
+
+@media screen and (min-width: 1054px) and (max-width: 1123px) {
+  #restaurant-hours td {
+    font-size: 15pt;
+  }
+}
+
+@media screen and (max-width: 697px) {
+  #restaurants-list li {
+    margin: 15px 0px 15px 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #restaurants-list li {
+    width: 80%;
+    30px 5% 15px 5%;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .filter-options select {
+    width: 125px;
+  }
+}
+
+@media screen and (min-width: 346px) and (max-width: 445px) {
+  .filter-options select {
+    width: 150px;
+  }
+}
